@@ -804,7 +804,8 @@ address {
   + .contacts-form-checkbox-label
   > .contacts-form-own-checkbox {
   background-color: #404bbf;
-  border-color: #404bbf;
+  fill: #f4f4fd;
+  border: none;
 }
 
 .contacts-form-checkbox:focus
