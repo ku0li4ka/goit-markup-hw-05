@@ -746,10 +746,11 @@ address {
 
 .contacts-form-input-icon {
   position: absolute;
-  fill: #2e2f42;
+  /*fill: #2e2f42;*/
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
+fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
