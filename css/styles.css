@@ -800,12 +800,15 @@ address {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
+.contacts-form-checkbox:checked {
+  fill: #f4f4fd;
+  border: none;
+}
+
 .contacts-form-checkbox:checked
   + .contacts-form-checkbox-label
   > .contacts-form-own-checkbox {
   background-color: #404bbf;
-  fill: #f4f4fd;
-  border: none;
 }
 
 .contacts-form-checkbox:focus
