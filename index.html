@@ -80,7 +80,6 @@
                 the perfect and creative solution.
               </p>
             </li>
-
             <li class="features-item">
               <div class="features-item-img">
                 <svg class="features-item-icon" width="64" height="64">
@@ -543,7 +542,155 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-wraper">
+          <p class="subscribe-wraper-form-title">Subscribe</p>
+          <form class="subscribe-wraper-form">
+            <input
+              class="subscribe-wraper-form-input"
+              type="email"
+              placeholder="Email"
+            />
+            <button class="subscribe-wraper-form-btn" type="submit">
+              Subscribe
+              <svg
+                class="subscribe-btn-icon"
+                width="24"
+                height="24"
+                aria-label="subscribe icon"
+              >
+                <use href="./images/icons.svg#icon-letter"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <div class="backdrop">
+      <div class="modal">
+        <button class="modal-close-btn">
+          <svg
+            class="modal-close-btn-icon"
+            height="8"
+            width="8"
+            aria-label="modal close icon"
+          >
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="contacts-form-description">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="contacts-form">
+          <div class="contacts-form-wraper">
+            <label class="contacts-form-input-label" for="user-name"
+              >Name
+            </label>
+            <div class="contacts-form-input-wraper">
+              <input
+                class="contacts-form-input"
+                type="text"
+                id="user-name"
+                name="user-name"
+                title="John Doe"
+                required
+              />
+              <svg
+                class="contacts-form-input-icon"
+                height="18"
+                width="18"
+                aria-label="modal user icon"
+              >
+                <use href="./images/icons.svg#icon-user"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="contacts-form-wraper">
+            <label class="contacts-form-input-label" for="user-tel"
+              >Phone</label
+            >
+            <div class="contacts-form-input-wraper">
+              <input
+                class="contacts-form-input"
+                type="tel"
+                id="user-tel"
+                name="user-tel"
+                title="xxx-xxx-xx-xx"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                required
+              />
+              <svg
+                class="contacts-form-input-icon"
+                height="18"
+                width="24"
+                aria-label="modal phone icon"
+              >
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="contacts-form-wraper">
+            <label class="contacts-form-input-label" for="user-email"
+              >Email</label
+            >
+            <div class="contacts-form-input-wraper">
+              <input
+                class="contacts-form-input"
+                type="email"
+                id="user-email"
+                name="user-email"
+                required
+              />
+              <svg
+                class="contacts-form-input-icon"
+                height="18"
+                width="24"
+                aria-label="modal email icon"
+              >
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="contacts-form-wraper">
+            <label class="contacts-form-input-label" for="user-comment"
+              >Comment</label
+            >
+            <textarea
+              class="contacts-form-input-comment"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="contacts-form-checkbox-wraper">
+            <input
+              class="contacts-form-checkbox visually-hidden"
+              type="checkbox"
+              id="user-privacy-policy"
+              name="user-privacy-policy"
+              value="true"
+              required
+            />
+            <label
+              class="contacts-form-checkbox-label"
+              for="user-privacy-policy"
+              ><span class="contacts-form-own-checkbox">
+                <svg
+                  class="contacts-form-own-checkbox-icon"
+                  width="10px"
+                  height="10px"
+                  aria-label="check mark icon"
+                >
+                  <use href="./images/icons.svg#icon-check-mark"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="accent-href" href="">Privacy Policy</a></label
+            >
+          </div>
+          <button class="contacts-form-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
