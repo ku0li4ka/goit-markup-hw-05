@@ -717,7 +717,7 @@ address {
 }
 
 .contacts-form-wraper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .contacts-form-input-label {
@@ -761,6 +761,10 @@ address {
 
 .contacts-form-input:focus + .contacts-form-input-icon {
   fill: #4d5ae5;
+}
+
+.contacts-form-cumment-wraper {
+  margin-bottom: 16px;
 }
 
 .contacts-form-input-comment {
