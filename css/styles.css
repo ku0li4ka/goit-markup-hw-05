@@ -807,13 +807,16 @@ fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   align-items: center;
   justify-content: center;
   width: 16px;
-    height: 16px;
+  height: 16px;
   border-radius: 2px; 
-margin-right: 8px;
+  margin-right: 8px;
   cursor: pointer;
   stroke-width: 1px;
-  border: 1px solid rgba(46, 47, 66, 0.4);  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-fill: transparent; 
+  border: 1px solid rgba(46, 47, 66, 0.4);  
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: transparent; 
 }
 
 .contacts-form-checkbox:checked {
